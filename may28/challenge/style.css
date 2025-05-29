@@ -58,6 +58,8 @@ button{
     img{
         z-index: -1;
         position: relative;
+        padding-left: 10px;
+        padding-right: 0px;
     }
 
     .flex2{
@@ -73,6 +75,7 @@ button{
     ul{
         font-size: 14px;
         margin-bottom: 0px;
+        text-align: left;
     }
 
     h4{
