@@ -1,0 +1,49 @@
+.flex1{
+    display: flex;
+    flex-direction: row;
+    min-height: 450px;
+    max-width: 800px;
+    justify-self: center;
+    margin-top: 8rem;
+}
+
+h1,
+h4,
+li,
+button{
+    font-family: "Lora", serif;
+    font-weight: 400;
+}
+
+img{
+    padding-right: 40px;
+}
+
+ul{
+    padding-inline-start: 30px;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+li::marker{
+    color: goldenrod;
+}
+
+a{
+    color: black;
+    font-weight: 600;
+}
+
+button{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 175px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 2px;
+}
