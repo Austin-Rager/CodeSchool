@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Austin Rager</h1>
+            <p class="subtitle">Software Engineering Student</p>
+            
+            <div class="nav-pills">
+                <button class="nav-pill active" onclick="showSection('about')">About</button>
+                <button class="nav-pill" onclick="showSection('experience')">Extracurricular</button>
+                <button class="nav-pill" onclick="showSection('projects')">Projects</button>
+                <button class="nav-pill" onclick="showSection('skills')">Skills</button>
+                <button class="nav-pill" onclick="showSection('contact')">Contact</button>
+            </div>
+        </div>
+
+        <div class="glass-card">
+            <!-- About Section -->
+            <div id="about" class="section active">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm currently a full-time software engineering student at Utah Tech University, 
+                    where I've been studying since 2023. I'm passionate about transforming complex problems into simple, 
+                    elegant solutions through clean code and thoughtful design.
+                </p>
+                <p>
+                   My journey in software development began in high school, where on my own time I was self-teaching myself how to program alongside.
+                   After returning from a two year religious mission, I started to attend Utah Tech University majoring in Software Engineering. 
+                   Throughout my studies I've had the opportunity to work on diverse projects ranging from simple projects creating small apps using python like a calculator and clone of microsoft paint.
+                <p>
+                    When I'm not studying or coding, you can find me outside skateboarding, rock climbing, and playing hacky sack. 
+                    I thrive on continuous learning and am always eager to take on new challenges that help me grow as both a developer and future software engineer.
+                </p>
+            </div>
+
+            <!-- Experience Section -->
+            <div id="experience" class="section">
+                <h2>Extracurricular Activities</h2>
+                
+                <div class="experience-item">
+                    <div class="job-title">Utah Tech Code School 2025</div>
+                    <p>
+                        • Six week programming camp in the summer designed to teach students fullstack development<br>
+                        • Learned and utilized fullstack development tools such as Vue, Javascript, Express and MongoDB<br>
+                    </p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-title">Utah Tech Programming Contest 2025</div>
+                    <p>
+                        • A contest hosted by the computing department of Utah Tech University for students to solve a set amount of problems.<br>
+                        • Attended the junior level contest for students who were taking lower level classes during the school term<br>
+                        • With a team consisting of myself and two others, we received second place<br>
+                    </p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-title">Latter-Day Saint Missionary 2020-2022</div>
+                    <p>
+                        • Served as a missionary in both Philadelphia, Pensylvania, and the city of Querétaro, Mexico<br>
+                        • Gained excellent communication, problem solving, and time management skills<br>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div id="projects" class="section">
+                <h2>Featured Projects</h2>
+                
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3 class="project-title">Wordle Solver</h3>
+                        <p>
+                            A project utilizing the C programming language designed to provide accurate suggestions to the daily word for Wordle.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div id="skills" class="section">
+                <h2>Technical Skills</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Frontend</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">Vue.js</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Backend</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Express</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Database</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MongoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>DevOps & Tools</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div id="contact" class="section">
+                <h2>Let's Connect</h2>
+                <p style="text-align: center; margin-bottom: 2rem;">
+                    I'm always interested in hearing about new opportunities and interesting projects. 
+                    Feel free to reach out if you'd like to work together!
+                </p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>Email</h4>
+                        <a href="mailto:austinrager01@gmail.com">austinrager01@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>Location</h4>
+                        <p>St. George, Utah</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>Phone</h4>
+                        <a href="tel:+14357721363">+1 (435) 772-1363</a>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/austin-rager-671131347" class="social-link" title="LinkedIn">💼</a>
+                    <a href="https://github.com/Austin-Rager" class="social-link" title="GitHub">🐙</a>
+                    <a href="#" class="social-link" title="Resume">📄</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Remove active class from all nav pills
+            const navPills = document.querySelectorAll('.nav-pill');
+            navPills.forEach(pill => {
+                pill.classList.remove('active');
+            });
+            
+            // Show selected section
+            document.getElementById(sectionId).classList.add('active');
+            
+            // Add active class to clicked nav pill
+            event.target.classList.add('active');
+        }
+
+        // Add smooth scrolling and entrance animations
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add intersection observer for scroll animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all cards for entrance animations
+            document.querySelectorAll('.glass-card, .experience-item, .project-card').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat(10, 5em);
+  grid-template-rows: repeat(10, 5em);
+  gap: 1em;
+}
+
+.grid-item {
+  background-color: #7dd;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 2.5em;
+  border-radius: 1em;
+  user-select: none;
+}
+
+.not-prime {
+  background-color: #888;
+}
